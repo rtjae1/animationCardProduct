@@ -1,0 +1,39 @@
+/* ~~~~~~~~~~~~~~ */
+/* color variables */
+/* ~~~~~~~~~~~~~~ */
+:root {
+  --primaryColor: #444444;
+  --secondaryColor: #ffdd67;
+  --tertiaryColor: #535945;
+  --jazz1: #2a7e90;
+  --jazz2: #165120;
+  --jazz3: #031138;
+  --jazz4: #013c40;
+  --rainbow: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--jazz1);
+}
+
+.container {
+  position: relative;
+  width: auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  justify-items: center;
+}
