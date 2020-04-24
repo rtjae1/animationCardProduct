@@ -4,13 +4,19 @@
 :root {
   --primaryColor: #444444;
   --secondaryColor: #ffdd67;
+  --tertiaryColor: #535945;
+  --jazz1: #2a7e90;
+  --jazz2: #165120;
+  --jazz3: #031138;
+  --jazz4: #013c40;
+  --rainbow: linear-gradient(-45deg, red, orange, yellow, green, blue, indigo, violet);
 }
 
 html {
   box-sizing: border-box;
   font-family: monospace;
-  /* background-color: var(--primaryColor); */
-  color: var(--secondaryColor);
+  background: var(--jazz1);
+  color: var(--jazz2);
 }
 
 *,
@@ -120,5 +126,5 @@ html {
 }
 
 .fa {
-  color: var(--secondaryColor);
+  color: var(--jazz2);
 }
